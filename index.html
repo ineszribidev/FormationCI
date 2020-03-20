@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <button id="myBtn">Cliquer-moi</button>
+
+    <p id="demo">
+      <script>
+        document.getElementById("myBtn").addEventListener("click", myFunction);
+
+        function myFunction() {
+          document.getElementById("myBtn").innerHTML = "Vous m'avez cliqué";
+        }
+      </script>
+    </p>
+  </body>
+</html>
